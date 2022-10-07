@@ -1,8 +1,10 @@
 import styles from '../styles/introduce.module.scss';
 import Image from 'next/image';
-import { useState } from 'react';
-import TypewriterEffect from 'typewriter-effect';
+import { Box, Button } from '@mui/material';
+import { DeleteIcon, SendIcon } from '@mui/icons-material';
+
 import Typewriter from 'typewriter-effect';
+
 
 export default function Apresentation() {
 
@@ -11,7 +13,7 @@ export default function Apresentation() {
 
             <div className={styles.title}>
 
-                <TypewriterEffect
+                <Typewriter
                     options={{
                         cursor: '',
                     }}
@@ -25,7 +27,33 @@ export default function Apresentation() {
                             .start();
                     }}
                 />
-                
+
+                <Box
+                    sx={{
+                        minWidth: 350,
+                        display: 'flex',
+                        justifyContent: 'space-evenly',
+                        gap: '10'
+                    }}
+                >
+                    <Button 
+                        variant="outlined" 
+                        size="large" 
+                        href='https://www.linkedin.com/in/walkerlobato/' 
+                        target='_blank'
+                    >
+                        Linkedin
+                    </Button>
+                    
+                    <Button 
+                        variant="outlined" 
+                        size="large"
+                        href='https://github.com/WalkerBrum?tab=repositories' 
+                        target='_blank'>
+                        Github
+                    </Button>
+                </Box>
+
             </div>
 
             <Image
