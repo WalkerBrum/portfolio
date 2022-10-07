@@ -9,7 +9,7 @@ import Typewriter from 'typewriter-effect';
 export default function Apresentation() {
 
     return (
-        <div className={styles.introduce}>
+        <section className={styles.introduce}>
 
             <div className={styles.title}>
 
@@ -64,6 +64,6 @@ export default function Apresentation() {
                 alt="Walker Lobato"
             />
 
-        </div>
+        </section>
     )
 }

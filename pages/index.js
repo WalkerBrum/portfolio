@@ -1,7 +1,8 @@
 import Head from 'next/head';
-import Layout from '../components/Layout';
-import Nav from '../components/Nav';
-import Introduce from '../components/Introduce';
+import Layout from '../components/layout';
+import Nav from '../components/nav';
+import Introduce from '../components/introduce';
+import Resume from '../components/resume';
 
 export default function Home() {
   return (
@@ -18,7 +19,8 @@ export default function Home() {
       <main>
 
         <Introduce />
-
+        <Resume />
+        
       </main>
 
      </Layout>
