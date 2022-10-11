@@ -1,0 +1,35 @@
+.courses {
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+    margin: 20px auto 0 auto;
+
+    h2 {
+        text-align: center;
+        margin: 20px;
+        letter-spacing: 5px;
+    }
+
+    .titles {
+        display: flex;
+        justify-content: left;
+        gap: 30px;
+        letter-spacing: 1px;
+        border: 1px solid white;
+
+        .headers {
+            h4 {
+                margin: 0;
+            }
+
+            p {
+                margin: 0;
+            }
+        }
+    }
+
+    .text {
+        letter-spacing: 1px;
+        text-indent: 1.6em;
+    }
+}

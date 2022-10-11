@@ -1,9 +1,10 @@
 import styles from '../styles/resume.module.scss';
 
+
 export default function Resume()  {
     return (
         <section className={styles.resume}>
-            <h2>RRESUMO PROFISSIONAL</h2>
+            <h2>RESUMO PROFISSIONAL</h2>
             <p>Software Engineer, atualmente trabalhando com desenvolvimento de sites e
                sistemas web com foco no front-end. Apaixonado por React, utilizo-o na maioria
                das minhas aplicações, junto com a metodologia ágil Scrum.</p>

@@ -3,6 +3,8 @@ import Layout from '../components/layout';
 import Nav from '../components/nav';
 import Introduce from '../components/introduce';
 import Resume from '../components/resume';
+import Courses from '../components/courses';
+
 
 export default function Home() {
   return (
@@ -20,6 +22,7 @@ export default function Home() {
 
         <Introduce />
         <Resume />
+        <Courses />
         
       </main>
 
